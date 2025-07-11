@@ -9,11 +9,11 @@ root.title("System raportowy")
 root.geometry("800x600")
 
 conn = psycopg2.connect(
-    database="nbp_currency",
-    user='swpsuser',
-    password='Start123!@',
-    host='46.41.139.145',
-    port='5432'
+    database="...",
+    user='...',
+    password='...',
+    host='...',
+    port='...'
 )
 
 cursor = conn.cursor()
