@@ -44,6 +44,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
+> ⚠️ **Note:** During development, the project connected to a private PostgreSQL server used in class.  
+> To run the app on your own, you will need to update the database connection details in the code (`app.py`) with your own server credentials or setup.
+
 This will launch a Tkinter window. You can:
 - 🧮 Generate and display the data table.
 - 📊 Display a bar chart with exchange rates.
